@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/style/style.css">
+    <title>سایت دیوار</title>
+</head>
+<body>
+
+    <header id="mainheader">
+        <div class="header-container">
+
+            <div class="header-logo">
+                <a href="#"><img src="./assests/images/download.svg" alt="logo"></a>
+            </div>
+
+            <div class="header-function">
+                <div class="location-div" id="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="selected-city">انتخاب شهر</span>
+                </div>
+
+                <div id="city-modal" class="modal">
+                    <div class="modal-content">
+                        <div class="headmodal">
+                         <p>انتخاب شهر</p>
+                         <div id="close-modal" class="close"><i class="fa-regular fa-circle-xmark"></i></div>
+                        </div>
+                      <ul  class="city-menu"  id="city-menu">
+
+                      </ul>
+                    </div>
+                  </div>
+                  
+
+                <div class="category-div">
+                    <p>دسته ها</p>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="search-div">
+                    <input type="search" id="search" placeholder="جستجو">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="header-icon">
+                <div class="header-div">
+                    <button>
+                        <i class="fa-regular fa-user"></i>
+                        <p>دیوار من</p>
+                    </button>
+                </div>
+                <div class="header-div">
+                    <button>
+                        <i class="fa-regular fa-comment"></i>
+                        <p>چت </p>
+                    </button>
+                </div>
+                <div class="header-div">
+                    <button>
+                        <i class="fa-solid fa-headset"></i>
+                        <p>پشتیبانی </p>
+                    </button>
+                </div>
+                <div class="save-div">
+                    <button>
+                        <p>ثبت آگهی </p>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <section id="body">
+        <div class="main-container">
+           
+            <div class="category-container">
+                
+                <h6>دسته ها</h6>
+                
+                 <div id="category-list" class="category-list">
+              
+                 </div> 
+
+                 <div class="options-category">
+                    <div class="small-option">
+                        <i class="fa-solid fa-caret-down"></i>
+                        <p>محل</p>
+                    </div>
+                    <div class="small-option">
+                        <i class="fa-solid fa-caret-down"></i>
+                        <p>قیمت</p>
+                    </div>
+                    <div class="small-option">
+                        <i class="fa-solid fa-caret-down"></i>
+                        <p>وضعیت آگهی</p>
+                    </div>
+                    <div class="small-option">
+                        <i class="fa-solid fa-caret-down"></i>
+                        <p>افزونه ها</p>
+                    </div>
+                 </div>
+
+                 <div class="footer">
+                    <div class="footer-tags">
+                    <div class="footer-div"><a href="#">درباره دیوار</a></div>
+                    <div class="footer-div"><a href="#">دریافت برنامه</a></div>
+                    <div class="footer-div"><a href="#">اتاق خبر</a></div>
+                    <div class="footer-div"><a href="#">دیوار حرفه ای</a></div>
+                    <div class="footer-div"><a href="#">گزارش آسیب پذیری</a></div>
+                    <div class="footer-div"><a href="#">دیواری شو</a></div>
+                    <div class="footer-div"><a href="#">پشتیبانی و قوانین</a></div>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-solid fa-hashtag"></i></a>
+                    </div>
+                    <div class="footer-img">
+                        <img src="./assests/images/download.png">
+                        <img src="./assests/images/download (1).png">
+                        <img src="./assests/images/download.png">
+                    </div>
+                 </div>
+
+            </div>
+           
+          
+            
+            <div id="ads-container" class="ads-container">
+
+            </div>
+
+            <div id="seller-modal" class="modal">
+                <div class="seller-modal-content">
+                    <div class="headmodal">
+                        <p> اطلاعات  فروشنده</p>
+                        <div id="seller-close-modal" class="close"><i class="fa-regular fa-circle-xmark"></i></div>
+                       </div> 
+                        <div id="seller-list" class="seller-list">
+
+                        </div>
+                </div>
+              </div>
+              
+              
+          </div>
+      </section>
+    
+</body>
+<script src="./assests/js/mainscript.js"></script>
+</html>
